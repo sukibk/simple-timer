@@ -20,7 +20,6 @@ export default function App() {
         clearInterval(timerId.current)
     }
 
-    // To be changed
     let secondsPassed = (currentTime - startTime) / 1000;
 
     return (
